@@ -1,0 +1,73 @@
+.plus-menu {
+    align-items: center;
+    bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 1rem;
+}
+
+.plus-content {
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 150ms ease-in-out;
+}
+
+.plus-btn {
+    align-items: center;
+    background-color: #0072ff;
+    border-radius: .125rem;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    height: 2rem;
+    justify-content: center;
+    width: 2rem;
+}
+
+button.plus-btn {
+    border: none;
+    font-family: inherit;
+    padding: 0;
+}
+
+button.plus-btn:focus {outline: none}
+
+.plus-content .plus-btn {
+    background-color: #ff3030;
+    margin-bottom: 1rem;
+}
+
+.plus-btn:hover {
+    background-color: #0365dd;
+}
+
+.plus-content .plus-btn:hover {
+    background-color: #e12929;
+}
+
+.plus {
+    align-items: center;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    width: inherit;
+}
+
+.plus::after {
+    color: #fff;
+    content: '+';
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.plus-btn:focus + .plus-content {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.plus-menu .plus-content {
+    order: -1;
+}
