@@ -1,9 +1,11 @@
-# Plussy.CSS
+<h1 align=center>plussy.css</h1>
 ## Expandable CSS Plus Button
-This is a small animated CSS plus button, which upon hover rotates and displays the menu which rotates and fades in. It uses absolute positioning by default, but feel free to change it at the top of plussy.css
+A simple css library for creating menus with plus icons
 
-### [See It in Action!](https://codepen.io/tippingcoin/pen/bjgvKB)
+### [Check the codepen out!](https://codepen.io/tippingcoin/pen/bjgvKB)
+### [See it in action!](https://snaddyvitch-dispenser.github.io/plussy/)
 
 ### Image:
 ![Image Example](https://imgur.com/jaAQUZJ.png)
+<br>
 [Image Enhancement Idea by @shenan](https://busy.org/@shenan/re-cadawg-ulog-my-new-css-widget-plussy-plussy-css-20180728t184250524z)
