@@ -12,7 +12,7 @@
     flex-direction: column;
     opacity: 0;
     pointer-events: none;
-    transition: opacity 150ms ease-in-out;
+    transition: opacity 300ms ease-in-out;
 }
 
 .plus-btn {
@@ -63,8 +63,32 @@ button.plus-btn:focus {outline: none}
     font-size: 2rem;
 }
 
-.plus-btn:focus + .plus-content {
+.plus-btn:hover + .plus-content, .plus-btn:focus + .plus-content {
     opacity: 1;
+    pointer-events: auto;
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
+
+.plus-menu:hover {
+  opacity: 1;
+    pointer-events: auto;
+}
+
+@keyframes fadeInUp {
+  from {
+   margin-bottom: -4px;
+  }
+
+  to {
+    margin-bottom: 0px;
+  }
+}
+
+.plus-content:hover {
+  opacity: 1;
     pointer-events: auto;
 }
 
