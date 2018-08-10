@@ -3,10 +3,28 @@
 ## Expandable CSS Plus Button
 A simple css library for creating menus with plus icons
 
-### [Check the codepen out!](https://codepen.io/tippingcoin/pen/bjgvKB)
-### [See it in action!](https://snaddyvitch-dispenser.github.io/plussy/)
+This button supports both clicking and hovering to utilise the menu and by default is positioned in the bottom left corner.
 
-### Image:
-![Image Example](https://imgur.com/jaAQUZJ.png)
-<br>
-[Image Enhancement Idea by @shenan](https://busy.org/@shenan/re-cadawg-ulog-my-new-css-widget-plussy-plussy-css-20180728t184250524z)
+### Usage
+The Stylesheet can be used in your code by including this between your head tags, or by downloading it from [here](https://snaddyvitch-dispenser.github.io/plussy/css/plussy.css) (Right Click, Save Link As..)
+
+```html
+<link href="https://snaddyvitch-dispenser.github.io/plussy/css/plussy.css" rel="stylesheet">
+```
+
+Then just include the following in your HTML to generate a standard Plussy Plus Button
+```html
+<div class="plus-menu">
+    <button class="plus-btn">
+        <div class="plus"></div>
+    </button>
+    <div class="plus-content">
+        <div class="plus-btn">I</div>
+        <div class="plus-btn">I</div>
+        <div class="plus-btn">I</div>
+    </div>
+</div>
+```
+      
+### Want An Extended Description or To See it in Action?
+*[You Can See It Here!](https://snaddyvitch-dispenser.github.io/plussy/)*
