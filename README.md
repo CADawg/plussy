@@ -6,7 +6,7 @@ A simple css library for creating menus with plus icons
 This button supports both clicking and hovering to utilise the menu and by default is positioned in the bottom left corner.
 
 ### Usage
-The Stylesheet can be used in your code by including this between your head tags, or by downloading it from <a href="https://snaddyvitch-dispenser.github.io/plussy/css/plussy.css" download>here</a> (Just Click)
+The Stylesheet can be used in your code by including this between your head tags, or by downloading it from <a href="https://snaddyvitch-dispenser.github.io/plussy/css/plussy.css" download="download">here</a> (Just Click)
 
 ```html
 <link href="https://snaddyvitch-dispenser.github.io/plussy/css/plussy.css" rel="stylesheet">
